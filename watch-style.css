@@ -1,0 +1,95 @@
+html {
+    height: 100%;
+}
+.heading{
+    text-align: center;
+}
+.heading h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 3px;
+}
+.outer-box{
+    background-color: rgb(202, 166, 236);
+    border: 3px solid black;
+    height: 250px;
+    width: 450px;
+    border-radius: 17px;
+    margin: 30px auto ;
+}
+body{
+    background:linear-gradient( 45deg,rgb(241, 163, 163),rgb(156, 156, 244));
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.display{
+    margin: 10px auto;
+    background-color: rgb(215, 184, 245);
+    border-radius: 17px;
+    width: 70%;
+    border: 2px solid black;
+    text-align: center;
+    transition: 0.1s ease-in-out;
+}
+.display:hover{
+    background-color: rgb(220, 194, 246);
+    transform: scale(1.01);
+    box-shadow: 0px 7px 30px 1px rgb(100, 152, 255);
+}
+.display h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    font-size:45px;
+    display: inline-block;
+}
+.button-section button{
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 7px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bolder;
+    border: 1.5px solid rgb(116, 102, 223);
+    background-color: rgb(155, 143, 247);
+    transition:0.15s ease-in-out;
+}
+.button-section button:hover{
+    transform: scale(1.08);
+    background-color: rgb(140, 127, 239);
+    box-shadow: 0px 0px 10px 4px rgb(226, 213, 243);
+}
+#pause{
+    display: none;
+}
+#lap{
+    display: none;
+}
+.button-section{
+    margin-top: 35px;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+}
+.laps{
+    margin: -10px auto;
+    width: 450px;
+    text-align: center;    
+}
+.laps ul li{
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    border: 1.5px solid rgba(222, 179, 235);
+    box-shadow: 0px 5px 15px 1px rgb(206, 246, 231);
+    background-color: rgba(222, 179, 235, 0.577);
+    margin: 20px;
+    border-radius: 10px;
+    transition: 0.1s ease-in-out;
+}
+.laps ul li:hover{
+    transform: scale(1.1);
+}
